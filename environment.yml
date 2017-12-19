@@ -19,15 +19,12 @@ dependencies:
 - decorator
 - entrypoints
 - expat
-- fontconfig
-- glib
 - html5lib
 - icu
 - ipykernel
 - ipython
 - ipython_genutils
 - ipywidgets
-- jbig
 - jedi
 - jinja2
 - jsonschema
@@ -35,9 +32,6 @@ dependencies:
 - jupyter_client
 - jupyter_console
 - jupyter_core
-- libffi
-- libgcc
-- libgfortran
 - libiconv
 - libpng
 - libsodium
@@ -62,7 +56,6 @@ dependencies:
 - pillow
 - pip
 - prompt_toolkit
-- ptyprocess
 - pycparser
 - pygments
 - pyparsing
@@ -73,7 +66,6 @@ dependencies:
 - pyzmq
 - qt
 - qtconsole
-- readline
 - scipy
 - seaborn
 - setuptools
@@ -82,7 +74,6 @@ dependencies:
 - six
 - sqlite
 - statsmodels
-- terminado
 - testpath
 - tk
 - tornado
@@ -93,8 +84,6 @@ dependencies:
 - widgetsnbextension
 - xz
 - zeromq
-- pytorch>=0.2.0
-- torchvision>=0.1.9
 - bcolz
 - prompt_toolkit
 - pip:
@@ -106,10 +95,10 @@ dependencies:
   - sklearn_pandas
   - feather-format
   - jupyter_contrib_nbextensions
+  - torchvision
   - plotnine
   - awscli
   - kaggle-cli
   - ipywidgets
   - jupyter_contrib_nbextensions
   - git+https://github.com/SauceCat/PDPbox.git
-
